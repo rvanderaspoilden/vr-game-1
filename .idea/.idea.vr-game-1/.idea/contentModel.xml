@@ -6,7 +6,17 @@
     <e p="C:\Workspace\vr-game-1" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Samples" t="Include">
+          <e p="XR Interaction Toolkit" t="Include">
+            <e p="0.10.0-preview.7" t="Include">
+              <e p="Default Input Actions" t="Include">
+                <e p="XRI Default Input Actions.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
+          <e p="Extinguisher.cs" t="Include" />
           <e p="HandController.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
         </e>
