@@ -1,52 +1,57 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 
 [RequireComponent(typeof(ActionBasedController))]
 public class HandController : MonoBehaviour {
     [Header("Settings")]
+    
     [SerializeField]
-    private ActionBasedController actionBasedController;
+    private XRIDefaultInputActions inputActions;
 
     [SerializeField]
+    private HandType handType;
+
     private XRDirectInteractor interactor;
 
-    [SerializeField]
     private Animator animator;
 
     private void Awake() {
-        this.actionBasedController = GetComponent<ActionBasedController>();
         this.interactor = GetComponent<XRDirectInteractor>();
+        this.inputActions = new XRIDefaultInputActions();
+        this.inputActions.Enable();
     }
 
     private void OnEnable() {
-        this.actionBasedController.activateAction.action.performed += this.Activate;
-        this.actionBasedController.selectAction.action.performed += this.Grip;
+        if (handType == HandType.RIGHT) {
+            this.inputActions.XRIRightHand.Activating.performed += this.OnActivating;
+            this.inputActions.XRIRightHand.Selecting.performed += this.OnSelecting;
+        } else {
+            this.inputActions.XRILeftHand.Activating.performed += this.OnActivating;
+            this.inputActions.XRILeftHand.Selecting.performed += this.OnSelecting;
+        }
 
         StartCoroutine(this.GetHand());
     }
 
     private void OnDisable() {
-        this.actionBasedController.activateAction.action.performed -= this.Activate;
-        this.actionBasedController.selectAction.action.performed += this.Grip;
-        
+        if (handType == HandType.RIGHT) {
+            this.inputActions.XRIRightHand.Activating.performed -= this.OnActivating;
+            this.inputActions.XRIRightHand.Selecting.performed -= this.OnSelecting;
+        } else {
+            this.inputActions.XRILeftHand.Activating.performed -= this.OnActivating;
+            this.inputActions.XRILeftHand.Selecting.performed -= this.OnSelecting;
+        }
+
         StopAllCoroutines();
     }
 
-    private void Grip(InputAction.CallbackContext ctx) {
+    private void OnSelecting(InputAction.CallbackContext ctx) {
         this.animator.SetFloat("Grip", ctx.ReadValue<float>());
-
-        if (this.interactor.selectTarget && ctx.ReadValue<float>() < 0.99f) {
-            this.interactor.allowSelect = false;
-        } else if (!this.interactor.selectTarget && ctx.ReadValue<float>() >= 0.95f) {
-            this.interactor.allowSelect = true;
-        }
     }
-    
-    private void Activate(InputAction.CallbackContext ctx) {
+
+    private void OnActivating(InputAction.CallbackContext ctx) {
         this.animator.SetFloat("Trigger", ctx.ReadValue<float>());
     }
 
@@ -56,7 +61,12 @@ public class HandController : MonoBehaviour {
             yield return null;
             Debug.Log("Retrieving hand animator...");
         }
-        
+
         Debug.Log(this.name + " is ok !");
     }
+}
+
+public enum HandType {
+    RIGHT,
+    LEFT
 }

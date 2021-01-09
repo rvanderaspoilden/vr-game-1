@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6ea23fba-27df-4fe9-a6d0-cbc6b8840434" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Material/Ball.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Material/Ball.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Extinguisher.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Extinguisher.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Desk.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Desk.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HandController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HandController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Extinguisher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Extinguisher.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Hand Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HandController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extinguisher.cs" />
       </list>
     </option>
   </component>
@@ -72,6 +73,8 @@
       <updated>1609775888368</updated>
       <workItem from="1609775905447" duration="5286000" />
       <workItem from="1609882231036" duration="2032000" />
+      <workItem from="1609963237904" duration="3615000" />
+      <workItem from="1610192502418" duration="225000" />
     </task>
     <servers />
   </component>
