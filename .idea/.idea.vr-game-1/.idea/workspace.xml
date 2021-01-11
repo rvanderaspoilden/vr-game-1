@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ea23fba-27df-4fe9-a6d0-cbc6b8840434" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Extinguisher.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Extinguisher.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Desk.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Desk.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Extinguisher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Extinguisher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Hand Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HandController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Extinguisher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Props.cs" />
       </list>
     </option>
   </component>
@@ -75,6 +77,7 @@
       <workItem from="1609882231036" duration="2032000" />
       <workItem from="1609963237904" duration="3615000" />
       <workItem from="1610192502418" duration="822000" />
+      <workItem from="1610399592109" duration="2416000" />
     </task>
     <servers />
   </component>
@@ -87,13 +90,17 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2714" y="256" key="RiderGenerateDialog" timestamp="1610399603119">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2714" y="256" key="RiderGenerateDialog/1920.0.1920.1080/0.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1610399603119" />
     <state x="2536" y="250" key="run.anything.popup" timestamp="1609882596209">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2536" y="250" key="run.anything.popup/1920.0.1920.1080/0.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1609882596209" />
-    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1609777258174">
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1610401326814">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1609777258174" />
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1610401326814" />
   </component>
 </project>
