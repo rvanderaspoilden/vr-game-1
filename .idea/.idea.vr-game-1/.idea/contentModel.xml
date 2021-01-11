@@ -18,6 +18,7 @@
         <e p="Scripts" t="Include">
           <e p="Extinguisher.cs" t="Include" />
           <e p="HandController.cs" t="Include" />
+          <e p="Props.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
         </e>
       </e>
