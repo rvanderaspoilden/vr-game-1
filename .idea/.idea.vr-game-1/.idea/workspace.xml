@@ -4,8 +4,11 @@
     <list default="true" id="6ea23fba-27df-4fe9-a6d0-cbc6b8840434" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Extinguisher.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Extinguisher.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Desk.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Desk.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Extinguisher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Extinguisher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/samplescene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/samplescene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +34,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HandController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Extinguisher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Props.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TwoHandGrabInteractable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
       </list>
     </option>
   </component>
@@ -78,6 +83,8 @@
       <workItem from="1609963237904" duration="3615000" />
       <workItem from="1610192502418" duration="822000" />
       <workItem from="1610399592109" duration="2416000" />
+      <workItem from="1610483724440" duration="4040000" />
+      <workItem from="1610738330286" duration="860000" />
     </task>
     <servers />
   </component>
