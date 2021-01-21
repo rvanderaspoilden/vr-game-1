@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 306746522233908301}
   - component: {fileID: 2568528568615590023}
   - component: {fileID: 4721339337864463752}
+  - component: {fileID: 2745882672923047377}
   m_Layer: 0
   m_Name: Cup_coffee
   m_TagString: Untagged
@@ -96,3 +97,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: -1
   m_Mesh: {fileID: -2341989176686374057, guid: 6aec51380d39b434a92177cf265bddcc, type: 3}
+--- !u!54 &2745882672923047377
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4081883522706045266}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
