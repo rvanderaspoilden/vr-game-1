@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Ground
+  - Placeable
+  - projectile
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
@@ -15,9 +17,6 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - Ground
-  - Grab
-  - Second Hand Grab
   - 
   - 
   - 
@@ -31,9 +30,12 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - Hand
+  - HandHolding
+  - Grabbable
+  - Grabbing
+  - Releasing
+  - Player
   - 
   - 
   - 
