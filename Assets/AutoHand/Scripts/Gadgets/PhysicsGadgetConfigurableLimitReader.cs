@@ -35,6 +35,8 @@ namespace Autohand{
             value = Vector3.Distance(axisPos, currPos)/joint.linearLimit.limit;
 
             if(!positive) value *= -1;
+            
+            Debug.Log("a :" + value);
 
             if (Mathf.Abs(value) < playRange)
                 value = 0;

@@ -44,19 +44,7 @@ public class ModuleDirectionalPadlock : MonoBehaviour {
     }
 
     private void Start() {
-        this.upButton.OnActivate.AddListener(() => AddDirection(upPadlockDirection));
-        this.downButton.OnActivate.AddListener(() => AddDirection(downPadlockDirection));
-        this.leftButton.OnActivate.AddListener(() => AddDirection(leftPadlockDirection));
-        this.rightButton.OnActivate.AddListener(() => AddDirection(rightPadlockDirection));
-
         this.ClearPadlockScreen();
-    }
-
-    private void OnDestroy() {
-        this.upButton.OnActivate.RemoveAllListeners();
-        this.downButton.OnActivate.RemoveAllListeners();
-        this.leftButton.OnActivate.RemoveAllListeners();
-        this.rightButton.OnActivate.RemoveAllListeners();
     }
 
     public void AddDirection(PadlockDirection padlockDirection) {

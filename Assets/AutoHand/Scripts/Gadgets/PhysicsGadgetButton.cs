@@ -24,12 +24,16 @@ namespace Autohand{
 
 
         protected void FixedUpdate(){
-            if(!pressed && GetValue()+threshold >= 1) {
+            /*if(!pressed && GetValue()+threshold >= 1) {
+                Pressed();
+            }*/
+
+            if (!pressed && this.transform.localPosition.z <= -0.0010f) {
                 Pressed();
             }
-            else if(!lockOnPressed && pressed && GetValue()-threshold <= 0){
+            /*else if(!lockOnPressed && pressed && GetValue()-threshold <= 0){
                 Unpressed();
-            }
+            }*/
 
             if (GetValue() < 0)
                 transform.position = startPos;
