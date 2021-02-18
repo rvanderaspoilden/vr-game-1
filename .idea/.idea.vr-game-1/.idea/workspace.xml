@@ -21,10 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6ea23fba-27df-4fe9-a6d0-cbc6b8840434" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AutoHand/Scripts/Gadgets/PhysicsGadgetButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AutoHand/Scripts/Gadgets/PhysicsGadgetButton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AutoHand/Scripts/Gadgets/PhysicsGadgetConfigurableLimitReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AutoHand/Scripts/Gadgets/PhysicsGadgetConfigurableLimitReader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Desk.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Desk.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ModuleDirectionalPadlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ModuleDirectionalPadlock.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +57,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable Objects/PadlockDirection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ActionButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ModuleDirectionalPadlock.cs" />
-        <option value="$PROJECT_DIR$/Assets/AutoHand/Scripts/Gadgets/PhysicsGadgetConfigurableLimitReader.cs" />
         <option value="$PROJECT_DIR$/Assets/AutoHand/Scripts/Gadgets/PhysicsGadgetButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/AutoHand/Scripts/Gadgets/PhysicsGadgetConfigurableLimitReader.cs" />
       </list>
     </option>
   </component>
@@ -87,10 +85,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12400">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="12400" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -116,6 +114,7 @@
       <workItem from="1611509779139" duration="1876000" />
       <workItem from="1612369968250" duration="2097000" />
       <workItem from="1613414905129" duration="2846000" />
+      <workItem from="1613670725098" duration="57000" />
     </task>
     <servers />
   </component>
@@ -208,6 +207,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2714" y="256" key="RiderGenerateDialog/1920.0.1920.1080/0.0.1920.1080/3840.0.1920.1080@1920.0.1920.1080" timestamp="1610399603119" />
+    <state x="-1370" y="273" width="819" height="534" key="find.popup" timestamp="1613670781327">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1370" y="273" width="819" height="534" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1613670781327" />
     <state x="2536" y="250" key="run.anything.popup" timestamp="1611261611213">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

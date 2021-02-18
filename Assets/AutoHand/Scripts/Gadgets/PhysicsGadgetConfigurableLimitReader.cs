@@ -36,8 +36,6 @@ namespace Autohand{
 
             if(!positive) value *= -1;
             
-            Debug.Log("a :" + value);
-
             if (Mathf.Abs(value) < playRange)
                 value = 0;
             return Mathf.Clamp(value, -1f, 1f);
