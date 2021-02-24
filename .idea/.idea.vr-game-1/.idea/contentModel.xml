@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\rodol\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\rodol\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_vr-game-1.1226290208.00" t="ExcludeRecursive" />
+    <e p="C:\Users\rodol\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\rodol\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_vr-game-1.1226290208.00" t="ExcludeRecursive" />
     <e p="C:\Workspace\vr-game-1" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AutoHand" t="Include">
@@ -106,6 +107,22 @@
             </e>
           </e>
         </e>
+        <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="readme.txt" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Samples" t="Include">
           <e p="XR Interaction Toolkit" t="Include">
             <e p="0.10.0-preview.7" t="Include">
@@ -123,13 +140,15 @@
           </e>
           <e p="Extinguisher.cs" t="Include" />
           <e p="HandController.cs" t="Include" />
+          <e p="ModuleCable.cs" t="Include" />
           <e p="ModuleDirectionalPadlock.cs" t="Include" />
           <e p="Props.cs" t="Include" />
+          <e p="Screw.cs" t="Include" />
+          <e p="Screwdriver.cs" t="Include" />
           <e p="Scriptable Objects" t="Include">
             <e p="PadlockDirection.cs" t="Include" />
           </e>
           <e p="SimpleCameraController.cs" t="Include" />
-          <e p="TwoHandGrabInteractable.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
