@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ea23fba-27df-4fe9-a6d0-cbc6b8840434" name="Default Changelist" comment="" />
+    <list default="true" id="6ea23fba-27df-4fe9-a6d0-cbc6b8840434" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vr-game-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Module_cable_1/Module._cable_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Module_cable_1/Module._cable_1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Props quest/Paper_knife_T.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Props quest/Paper_knife_T.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Desk.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Desk.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.10.0-preview.7/Runtime/Interaction/Interactors/XRDirectInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Screw.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.10.0-preview.7/Runtime/Interaction/Controllers/XRBaseController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Knife.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.10.0-preview.7/Runtime/Interaction/Interactors/XRBaseControllerInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.10.0-preview.7/Runtime/Interaction/Controllers/XRController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -45,6 +53,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Screw.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Screwdriver.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ModuleCable.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Cable.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Knife.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mbx2TGi6eNTdb4FJMcd200lAqc" />
@@ -59,6 +69,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -105,6 +116,7 @@
       <workItem from="1614188405079" duration="3518000" />
       <workItem from="1614359770364" duration="492000" />
       <workItem from="1614364470892" duration="1513000" />
+      <workItem from="1615225989713" duration="5270000" />
     </task>
     <servers />
   </component>
@@ -127,5 +139,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

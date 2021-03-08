@@ -9,6 +9,8 @@ TagManager:
   - FxTemporaire
   - Ground
   - Finger
+  - knife
+  - cable
   layers:
   - Default
   - TransparentFX

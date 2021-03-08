@@ -134,12 +134,14 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="ActionButton.cs" t="Include" />
+          <e p="Cable.cs" t="Include" />
           <e p="Detonator.cs" t="Include" />
           <e p="Enums" t="Include">
             <e p="Direction.cs" t="Include" />
           </e>
           <e p="Extinguisher.cs" t="Include" />
           <e p="HandController.cs" t="Include" />
+          <e p="Knife.cs" t="Include" />
           <e p="ModuleCable.cs" t="Include" />
           <e p="ModuleDirectionalPadlock.cs" t="Include" />
           <e p="Props.cs" t="Include" />
