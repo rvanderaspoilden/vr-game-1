@@ -418,7 +418,7 @@ GameObject:
   - component: {fileID: 6931343348550483507}
   - component: {fileID: 1372459148946257859}
   - component: {fileID: 5262284996586855554}
-  m_Layer: 0
+  m_Layer: 28
   m_Name: Cable_full
   m_TagString: cable
   m_Icon: {fileID: 0}
@@ -839,7 +839,7 @@ GameObject:
   - component: {fileID: 2960510809002421761}
   - component: {fileID: 1650552030316469644}
   - component: {fileID: 1564209223769655978}
-  m_Layer: 0
+  m_Layer: 28
   m_Name: Cable_full
   m_TagString: cable
   m_Icon: {fileID: 0}
@@ -1077,7 +1077,7 @@ Transform:
   m_GameObject: {fileID: 5092574045878354524}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 2690884292528606528}
   - {fileID: 7515428877824151314}
@@ -1214,7 +1214,7 @@ GameObject:
   - component: {fileID: 4338982275302095837}
   - component: {fileID: 5590307907075309088}
   - component: {fileID: 6427785058585571283}
-  m_Layer: 0
+  m_Layer: 28
   m_Name: Cable_full
   m_TagString: cable
   m_Icon: {fileID: 0}
@@ -1635,7 +1635,7 @@ GameObject:
   - component: {fileID: 3860918725468038005}
   - component: {fileID: 8098878357747527934}
   - component: {fileID: 1973817757823000167}
-  m_Layer: 0
+  m_Layer: 28
   m_Name: Cable_full
   m_TagString: cable
   m_Icon: {fileID: 0}
