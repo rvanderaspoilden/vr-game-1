@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2271765158312713692}
   - component: {fileID: 2786825070077615066}
   - component: {fileID: 5424286884598572582}
+  - component: {fileID: 6754255107682616537}
   m_Layer: 0
   m_Name: cigar
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6754255107682616537
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490347286259865660}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.060127255, y: 0.020277891, z: 0.020426825}
+  m_Center: {x: 0.0447222, y: -0.00000009778887, z: -0.0000002947636}
 --- !u!1 &2209097982357892185
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,6 +104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1577273918786975459}
+  - component: {fileID: 2213610490175867510}
   m_Layer: 0
   m_Name: Cigar_T
   m_TagString: Untagged
@@ -109,11 +124,27 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2271765158312713692}
-  - {fileID: 6161460166445682678}
   - {fileID: 1755205568860810233}
+  - {fileID: 6161460166445682678}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &2213610490175867510
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2209097982357892185}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &3476474581266135815
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,8 +156,9 @@ GameObject:
   - component: {fileID: 6161460166445682678}
   - component: {fileID: 4323295966599913813}
   - component: {fileID: 2593034208813452765}
+  - component: {fileID: 2069633917683943902}
   m_Layer: 0
-  m_Name: cigar2
+  m_Name: cigar3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,11 +172,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3476474581266135815}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1577273918786975459}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4323295966599913813
 MeshFilter:
@@ -195,6 +227,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2069633917683943902
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3476474581266135815}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04477174, y: 0.020277891, z: 0.020426825}
+  m_Center: {x: -0.052499022, y: -0.00000009778887, z: -0.0000002947636}
 --- !u!1 &8863496448804551217
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,8 +251,9 @@ GameObject:
   - component: {fileID: 1755205568860810233}
   - component: {fileID: 6947594630198281230}
   - component: {fileID: 6986717655110147686}
+  - component: {fileID: 3866954621063850432}
   m_Layer: 0
-  m_Name: cigar3
+  m_Name: cigar2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -225,7 +271,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1577273918786975459}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6947594630198281230
 MeshFilter:
@@ -276,3 +322,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3866954621063850432
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8863496448804551217}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04477174, y: 0.020277891, z: 0.020426825}
+  m_Center: {x: -0.007727292, y: -0.00000009778887, z: -0.0000002947636}
